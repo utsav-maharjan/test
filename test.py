@@ -1,1 +1,5 @@
-print("Wasssuppp Buddyyy!!!!! vi(${BUILD_NUMBER})")
+import os
+
+build_number = os.getenv('BUILD_NUMBER')
+
+print(f"Wasssuppp Buddyyy!!!!! v({BUILD_NUMBER})")
